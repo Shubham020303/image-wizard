@@ -31,6 +31,7 @@ module.exports = {
 					'900': '#3d3d3d',
 					'950': '#000000',
 				},
+				'the-black': "#101010",
 				border: "hsl(var(--border))",
 				input: "hsl(var(--input))",
 				ring: "hsl(var(--ring))",

@@ -85,7 +85,7 @@
 }
 
 .cl-formButtonPrimary {
-	@apply bg-black-900 hover:bg-black-950 transition-all;
+	@apply bg-black-950 hover:bg-black-900 transition-all;
 }
 
 .cl-internal-1tkef9e {
@@ -96,18 +96,194 @@
 	--accentDarker: none;
 }
 
-.cl-userButtonPopoverFooter{
+.cl-userButtonPopoverFooter {
 	@apply hidden;
+}
+
+.cl-card.cl-card {
+	@apply bg-the-black text-white;
+}
+
+.cl-headerTitle,
+.cl-headerSubtitle,
+.cl-socialButtonsBlockButtonText,
+.cl-socialButtonsBlockButtonArrow,
+.cl-dividerText,
+.cl-formFieldLabel,
+.cl-footerActionText,
+.cl-footerActionLink,
+.cl-formFieldInfoText,
+.cl-userButtonPopoverActionButtonText,
+.cl-userPreviewSecondaryIdentifier,
+.cl-userButtonPopoverActionButtonIcon,
+.cl-navbarButton,
+.cl-profileSectionTitleText,
+.cl-internal-1ho4xv,
+.cl-internal-xkj3jj,
+.cl-internal-l1ab9q,
+.cl-internal-rscu79,
+.cl-internal-n3kcow,
+.cl-internal-3vf5mz,
+.cl-internal-fqx4fd,
+.cl-internal-of57g,
+.cl-activeDeviceIcon,
+.cl-internal-mv2spy,
+.cl-internal-1mhwpd8,
+.cl-breadcrumbsItemDivider,
+.cl-breadcrumbsItem,
+.cl-fileDropAreaIcon,
+.cl-fileDropAreaHint,
+.cl-fileDropAreaButtonPrimary,
+.cl-formButtonReset,
+.cl-fileDropAreaFooterHint,
+.cl-internal-1b63r8w,
+.cl-internal-enrgi0,
+.cl-formHeaderTitle,
+.cl-formHeaderSubtitle,
+.cl-internal-ht57yv,
+.cl-internal-1a6oj74,
+.cl-alertText,
+.cl-internal-rsomru,
+.cl-internal-4muonf {
+	@apply text-white;
+}
+
+.cl-internal-17l7g8s {
+	border: 1px solid rgba(255, 255, 255, 0.589);
+}
+
+.cl-internal-ht57yv{
+	accent-color: #FFFFFF;
+}
+
+.cl-internal-17l7g8s:focus,
+.cl-internal-1jqtcj0:focus,
+.cl-internal-7dei8m:focus,
+.cl-internal-kqpt46:focus,
+.cl-internal-x41z8m:focus,
+.cl-internal-qneaho:focus,
+.cl-internal-111qmcc:focus,
+.cl-internal-1gs4p6w:focus,
+.cl-internal-1eujsrx:focus,
+.cl-internal-1hslmqw:focus,
+.cl-internal-n3npp1:focus,
+.cl-internal-xpl06n:focus,
+.cl-internal-1y8h5qy:focus,
+.cl-internal-1mhwpd8:focus,
+.cl-internal-1tyqsfn:focus,
+.cl-internal-149x26g:focus,
+.cl-internal-1c1tvm9:focus,
+.cl-internal-1aqw9tx:focus,
+.cl-internal-a9k0wc:focus,
+.cl-internal-rsomru,
+.cl-internal-g3qudv:focus,
+.cl-internal-10vmzwe:focus {
+	box-shadow: #FFFFFF 0px 0px 0px 1px;
+}
+
+.cl-internal-ht57yv:focus,
+.cl-internal-1a6oj74:focus{
+	border-color: #FFFFFF;
+}
+
+.cl-dividerLine {
+	@apply bg-white;
+}
+
+.cl-formFieldInput {
+	@apply bg-black-950 text-white;
+}
+
+.cl-badge {
+	@apply bg-black-950 text-white py-1;
+}
+
+.cl-internal-7dei8m{
+	@apply transition-all duration-300;
+}
+
+.cl-userButtonPopoverCard, .cl-internal-rx251b{
+	@apply border border-white;
+}
+
+.cl-userButtonPopoverMain{
+	padding: 0px 1.5rem;
+}
+
+.cl-userPreview{
+	padding: 0;
+}
+
+.cl-userButtonPopoverActionButton{
+	padding: 0.875rem 0;
+}
+
+.cl-internal-yrq74{
+	@apply rounded-lg;
+}
+
+.cl-userButtonPopoverActions{
+	@apply mt-3;
+}
+
+.cl-userButtonPopoverActions,
+.cl-navbarButtons{
+	@apply gap-2;
+}
+
+.cl-internal-7dei8m:hover {
+	text-decoration: none;
+	letter-spacing: 2px;
+	color: #FFFFFF;
+}
+
+.cl-internal-yrq74:hover,
+.cl-navbarButton:hover,
+.cl-internal-qneaho:hover,
+.cl-internal-111qmcc:hover,
+.cl-active,
+.cl-internal-1hslmqw:active,
+.cl-formButtonReset:hover,
+.cl-profileSectionPrimaryButton:hover,
+.cl-internal-a9k0wc:active,
+.cl-internal-a9k0wc:hover,
+.cl-internal-rsomru:hover {
+	@apply bg-black-900;
+}
+
+.cl-internal-b3au1v,
+.cl-internal-12lc5se {
+	@apply bg-black-900;
+}
+
+.cl-internal-ht57yv{
+	@apply border-b border-black-900;
+}
+
+.cl-fileDropAreaIconBox{
+	@apply bg-the-black;
+}
+
+.cl-internal-ft6lnp{
+	@apply bg-black-500;
+}
+
+.cl-internal-1p383is{
+	@apply font-protest-strike font-medium;
+}
+
+.cl-fileDropAreaButtonPrimary:hover{
+	@apply bg-the-black;
 }
 
 /****************************** Clerk Styling Ends ******************************/
 
 .auth {
-	@apply flex-center min-h-screen w-full bg-purple-100
+	@apply flex-center min-h-screen w-full bg-black-900 py-10
 }
 
 .root {
-	@apply flex min-h-screen w-full flex-col bg-white lg:flex-row;
+	@apply flex min-h-screen w-full flex-col bg-black-950 lg:flex-row;
 }
 
 .root-container {
@@ -340,7 +516,7 @@
 
 	/* Sidebar Component */
 	.sidebar {
-		@apply hidden h-screen w-72 bg-black-900 p-5 shadow-md shadow-purple-200/50 lg:flex;
+		@apply hidden h-screen w-72 bg-the-black p-5 shadow-md lg:flex;
 	}
 
 	.sidebar-logo {
