@@ -152,7 +152,7 @@
 	border: 1px solid rgba(255, 255, 255, 0.589);
 }
 
-.cl-internal-ht57yv{
+.cl-internal-ht57yv {
 	accent-color: #FFFFFF;
 }
 
@@ -182,7 +182,7 @@
 }
 
 .cl-internal-ht57yv:focus,
-.cl-internal-1a6oj74:focus{
+.cl-internal-1a6oj74:focus {
 	border-color: #FFFFFF;
 }
 
@@ -198,36 +198,37 @@
 	@apply bg-black-950 text-white py-1;
 }
 
-.cl-internal-7dei8m{
+.cl-internal-7dei8m {
 	@apply transition-all duration-300;
 }
 
-.cl-userButtonPopoverCard, .cl-internal-rx251b{
+.cl-userButtonPopoverCard,
+.cl-internal-rx251b {
 	@apply border border-white;
 }
 
-.cl-userButtonPopoverMain{
+.cl-userButtonPopoverMain {
 	padding: 0px 1.5rem;
 }
 
-.cl-userPreview{
+.cl-userPreview {
 	padding: 0;
 }
 
-.cl-userButtonPopoverActionButton{
+.cl-userButtonPopoverActionButton {
 	padding: 0.875rem 0;
 }
 
-.cl-internal-yrq74{
+.cl-internal-yrq74 {
 	@apply rounded-lg;
 }
 
-.cl-userButtonPopoverActions{
+.cl-userButtonPopoverActions {
 	@apply mt-3;
 }
 
 .cl-userButtonPopoverActions,
-.cl-navbarButtons{
+.cl-navbarButtons {
 	@apply gap-2;
 }
 
@@ -256,24 +257,37 @@
 	@apply bg-black-900;
 }
 
-.cl-internal-ht57yv{
+.cl-internal-ht57yv {
 	@apply border-b border-black-900;
 }
 
-.cl-fileDropAreaIconBox{
+.cl-fileDropAreaIconBox {
 	@apply bg-the-black;
 }
 
-.cl-internal-ft6lnp{
+.cl-internal-ft6lnp {
 	@apply bg-black-500;
 }
 
-.cl-internal-1p383is{
+.cl-internal-1p383is {
 	@apply font-protest-strike font-medium;
 }
 
-.cl-fileDropAreaButtonPrimary:hover{
+.cl-fileDropAreaButtonPrimary:hover {
 	@apply bg-the-black;
+}
+
+.cl-internal-11ewti4 {
+	width: 20px;
+	height: 20px;
+}
+
+.cl-userButtonBox {
+	gap: 1rem !important;
+}
+
+.cl-userButtonOuterIdentifier {
+	@apply text-gray-500 !important;
 }
 
 /****************************** Clerk Styling Ends ******************************/
@@ -319,7 +333,7 @@
 
 	/* 36 */
 	.h2-bold {
-		@apply text-[30px] font-bold md: text-[36px] leading-[110%];
+		@apply text-[30px] font-bold md:text-[36px] leading-[110%];
 	}
 
 	/* 30 */
@@ -371,7 +385,7 @@
 
 	/* =====  SHADCN OVERRIDES */
 	.button {
-		@apply py-4 px-6 flex-center gap-3 rounded-full p-16-semibold focus-visible: ring-offset-0 focus-visible:ring-transparent !important;
+		@apply py-4 px-6 flex-center gap-3 rounded-full p-16-semibold focus-visible:ring-offset-0 focus-visible:ring-transparent !important;
 	}
 
 	.dropdown-content {
@@ -379,7 +393,7 @@
 	}
 
 	.dropdown-item {
-		@apply p-16-semibold text-dark-700 cursor-pointer transition-all px-4 py-3 rounded-none outline-none hover: border-none focus-visible:ring-transparent hover:text-white hover:bg-purple-gradient hover:bg-cover focus-visible:ring-offset-0 focus-visible:outline-none !important;
+		@apply p-16-semibold text-dark-700 cursor-pointer transition-all px-4 py-3 rounded-none outline-none hover:border-none focus-visible:ring-transparent hover:text-white hover:bg-purple-gradient hover:bg-cover focus-visible:ring-offset-0 focus-visible:outline-none !important;
 	}
 
 	.input-field {
@@ -391,11 +405,11 @@
 	}
 
 	.submit-button {
-		@apply bg-purple-gradient bg-cover rounded-full py-4 px-6 p-16-semibold h-[50px] w-full md: h-[54px];
+		@apply bg-purple-gradient bg-cover rounded-full py-4 px-6 p-16-semibold h-[50px] w-full md:h-[54px];
 	}
 
 	.select-field {
-		@apply w-full border-2 border-purple-200/20 shadow-sm shadow-purple-200/15 rounded-[16px] h-[50px] md: h-[54px] text-dark-600 p-16-semibold disabled:opacity-100 placeholder:text-dark-400/50 px-4 py-3 focus:ring-offset-0 focus-visible:ring-transparent focus:ring-transparent focus-visible:ring-0 focus-visible:outline-none !important;
+		@apply w-full border-2 border-purple-200/20 shadow-sm shadow-purple-200/15 rounded-[16px] h-[50px] md:h-[54px] text-dark-600 p-16-semibold disabled:opacity-100 placeholder:text-dark-400/50 px-4 py-3 focus:ring-offset-0 focus-visible:ring-transparent focus:ring-transparent focus-visible:ring-0 focus-visible:outline-none !important;
 	}
 
 	.select-trigger {
@@ -403,7 +417,7 @@
 	}
 
 	.select-item {
-		@apply py-3 cursor-pointer hover: bg-purple-100;
+		@apply py-3 cursor-pointer hover:bg-purple-100;
 	}
 
 	.IconButton {
@@ -411,7 +425,14 @@
 	}
 
 	.sheet-content button {
-		@apply focus: ring-0 focus-visible:ring-transparent focus:ring-offset-0 focus-visible:ring-offset-0 focus-visible:outline-none focus-visible:border-none !important;
+		@apply focus:ring-0 focus-visible:ring-transparent focus:ring-offset-0 focus-visible:ring-offset-0 focus-visible:outline-none focus-visible:border-none !important;
+		top: 1.7rem;
+		right: 1.3rem;
+	}
+
+	.sheet-content button svg {
+		width: 25px;
+		height: 25px;
 	}
 
 	.success-toast {
@@ -437,11 +458,11 @@
 	}
 
 	.credits-item {
-		@apply w-full rounded-[16px] border-2 border-purple-200/20 bg-white p-8 shadow-xl shadow-purple-200/20 lg: max-w-none;
+		@apply w-full rounded-[16px] border-2 border-purple-200/20 bg-white p-8 shadow-xl shadow-purple-200/20 lg:max-w-none;
 	}
 
 	.credits-btn {
-		@apply w-full rounded-full bg-purple-100 bg-cover text-purple-500 hover: text-purple-500;
+		@apply w-full rounded-full bg-purple-100 bg-cover text-purple-500 hover:text-purple-500;
 	}
 
 	/* Profile Page */
@@ -450,16 +471,16 @@
 	}
 
 	.profile-balance {
-		@apply w-full rounded-[16px] border-2 border-purple-200/20 bg-white p-5 shadow-lg shadow-purple-200/10 md: px-6 md:py-8;
+		@apply w-full rounded-[16px] border-2 border-purple-200/20 bg-white p-5 shadow-lg shadow-purple-200/10 md:px-6 md:py-8;
 	}
 
 	.profile-image-manipulation {
-		@apply w-full rounded-[16px] border-2 border-purple-200/20 bg-white p-5 shadow-lg shadow-purple-200/10 md: px-6 md:py-8;
+		@apply w-full rounded-[16px] border-2 border-purple-200/20 bg-white p-5 shadow-lg shadow-purple-200/10 md:px-6 md:py-8;
 	}
 
 	/* Transformation Details */
 	.transformation-grid {
-		@apply grid h-fit min-h-[200px] grid-cols-1 gap-5 py-8 md: grid-cols-2;
+		@apply grid h-fit min-h-[200px] grid-cols-1 gap-5 py-8 md:grid-cols-2;
 	}
 
 	.transformation-original_image {
@@ -468,7 +489,7 @@
 
 	/* Collection Component */
 	.collection-heading {
-		@apply md: flex-between mb-6 flex flex-col gap-5 md:flex-row;
+		@apply md:flex-between mb-6 flex flex-col gap-5 md:flex-row;
 	}
 
 	.collection-list {
@@ -484,7 +505,7 @@
 	}
 
 	.collection-card {
-		@apply flex flex-1 cursor-pointer flex-col gap-5 rounded-[16px] border-2 border-purple-200/15 bg-white p-4 shadow-xl shadow-purple-200/10 transition-all hover: shadow-purple-200/20;
+		@apply flex flex-1 cursor-pointer flex-col gap-5 rounded-[16px] border-2 border-purple-200/15 bg-white p-4 shadow-xl shadow-purple-200/10 transition-all hover:shadow-purple-200/20;
 	}
 
 	/* MediaUploader Component */
@@ -502,7 +523,7 @@
 
 	/* Navbar Component */
 	.header {
-		@apply flex-between fixed h-16 w-full border-b-4 border-purple-100 bg-white p-5 lg: hidden;
+		@apply flex-between fixed h-16 w-full bg-the-black p-5 lg:hidden;
 	}
 
 	.header-nav_elements {
@@ -511,7 +532,7 @@
 
 	/* Search Component */
 	.search {
-		@apply flex w-full rounded-[16px] border-2 border-purple-200/20 bg-white px-4 shadow-sm shadow-purple-200/15 md: max-w-96;
+		@apply flex w-full rounded-[16px] border-2 border-purple-200/20 bg-white px-4 shadow-sm shadow-purple-200/15 md:max-w-96;
 	}
 
 	/* Sidebar Component */
@@ -524,28 +545,28 @@
 	}
 
 	.sidebar-nav {
-		@apply h-full flex-col justify-between md: flex md:gap-4;
+		@apply h-full flex-col justify-between md:flex md:gap-4;
 	}
 
 	.sidebar-nav_elements {
-		@apply hidden w-full flex-col items-start gap-2 md: flex;
+		@apply hidden w-full flex-col items-start gap-2 md:flex;
 	}
 
 	.sidebar-nav_element {
-		@apply flex-center p-16-semibold w-full whitespace-nowrap rounded-full bg-cover transition-all hover: bg-purple-100 hover:shadow-inner;
+		@apply py-2 px-4 w-full whitespace-nowrap rounded-md bg-cover transition-all hover:bg-black-900 cursor-pointer;
 	}
 
 	.sidebar-link {
-		@apply p-16-semibold flex size-full gap-4 p-4;
+		@apply p-16-semibold flex size-full gap-4;
 	}
 
 	/* TransformationForm Component */
 	.prompt-field {
-		@apply flex flex-col gap-5 lg: flex-row lg:gap-10;
+		@apply flex flex-col gap-5 lg:flex-row lg:gap-10;
 	}
 
 	.media-uploader-field {
-		@apply grid h-fit min-h-[200px] grid-cols-1 gap-5 py-4 md: grid-cols-2;
+		@apply grid h-fit min-h-[200px] grid-cols-1 gap-5 py-4 md:grid-cols-2;
 	}
 
 	/* TransformedImage Component */
